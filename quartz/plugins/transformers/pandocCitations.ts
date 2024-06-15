@@ -2,6 +2,7 @@ import rehypeCitation from "rehype-citation"
 import remarkParse from "remark-parse"
 import remarkRehype from "remark-rehype"
 import { QuartzTransformerPlugin } from "../types"
+import remarkPandocLinks from "./remarkPandocLinks"
 
 interface Options {
   bibliography: string
@@ -13,7 +14,7 @@ export const PandocCitations: QuartzTransformerPlugin<Options> = (opts?: Options
   return {
     name: "PandocCitations",
     markdownPlugins() {
-      return [remarkParse]
+      return [remarkParse, remarkPandocLinks]
     },
     htmlPlugins() {
       return [
