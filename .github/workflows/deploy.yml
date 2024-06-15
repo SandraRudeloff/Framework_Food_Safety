@@ -58,6 +58,15 @@ jobs:
           rm -rf content
           mv converted_md content
 
+      - name: Verify converted files
+        run: |
+          echo "Verifying converted files"
+          ls -lR content
+          for file in content/*.md; do
+            echo "Content of $file:"
+            cat "$file"
+          done
+
       - name: Install Dependencies
         run: npm ci
 
