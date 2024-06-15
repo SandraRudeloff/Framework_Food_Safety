@@ -44,9 +44,13 @@ jobs:
       - name: Convert Markdown to HTML with Pandoc
         run: |
           mkdir -p converted_html
-          find . -name '*.md' -type f | while read file; do
+          find content -name '*.md' -type f | while read file; do
             echo "Processing $file..."
+            start_time=$(date +%s)
             pandoc "$file" -o "converted_html/$(basename "$file" .md).html" --citeproc --bibliography="references/zotero_library.bib" --csl="references/apa.csl"
+            end_time=$(date +%s)
+            elapsed=$(( end_time - start_time ))
+            echo "Processed $file in $elapsed seconds."
             if [ $? -ne 0 ]; then echo "Error processing $file"; exit 1; fi
           done
 
@@ -66,8 +70,4 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+    runs-on: ubuntu-latest​⬤
