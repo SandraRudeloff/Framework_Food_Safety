@@ -33,7 +33,7 @@ related:
 
 # Notes
 %% begin notes %%
-- Food Consumption survey in Germany
+- Food Consumption survey in Germanyx
 - focused on food items that have the potential to cause foodborne outbreaks ("high risk" food items)
 
 **Used Variables**
