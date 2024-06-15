@@ -1,4 +1,4 @@
-name: Build and Test
+name: Build, Test, and Deploy Quartz site to GitHub Pages
 
 on:
   pull_request:
@@ -7,6 +7,15 @@ on:
   push:
     branches:
       - v4
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build-and-test:
@@ -43,24 +52,68 @@ jobs:
       - name: Test
         run: npm test
 
+      - name: Install Pandoc
+        run: |
+          if [[ "${{ matrix.os }}" == "ubuntu-latest" ]]; then
+            sudo apt-get update
+            sudo apt-get install -y wget
+            wget https://github.com/jgm/pandoc/releases/download/3.1.1/pandoc-3.1.1-1-amd64.deb
+            sudo dpkg -i pandoc-3.1.1-1-amd64.deb
+          elif [[ "${{ matrix.os }}" == "macos-latest" ]]; then
+            brew install pandoc
+          else
+            choco install pandoc
+          fi
+
+      - name: Verify Bibliography and CSL files
+        run: |
+          if [ ! -f references/zotero_library.bib ]; then echo "Bibliography file not found!"; exit 1; fi
+          if [ ! -f references/apa.csl ]; then echo "CSL file not found!"; exit 1; fi
+
+      - name: Convert Markdown to HTML with Pandoc
+        run: |
+          mkdir -p content_html
+          find content -name '*.md' -type f | while read file; do
+            echo "Processing $file..."
+            start_time=$(date +%s)
+            pandoc "$file" -o "content_html/$(basename "$file" .md).html" --citeproc --bibliography="references/zotero_library.bib" --csl="references/apa.csl"
+            end_time=$(date +%s)
+            elapsed=$(( end_time - start_time ))
+            echo "Processed $file in $elapsed seconds."
+            if [ $? -ne 0 ]; then echo "Error processing $file"; exit 1; fi
+          done
+
+      - name: Move Converted HTML Files
+        run: |
+          mkdir -p public/content
+          mv content_html/*.html public/content/
+
       - name: Ensure Quartz builds, check bundle info
         run: npx quartz build --bundleInfo
 
-  publish-tag:
-    if: ${{ github.repository == 'jackyzha0/quartz' }}
+  deploy:
+    needs: build-and-test
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     permissions:
       contents: write
+      pages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 18
+
       - name: Get package version
         run: node -p -e '`PACKAGE_VERSION=${require("./package.json").version}`' >> $GITHUB_ENV
+
       - name: Create release tag
         uses: pkgdeps/git-tag-action@v2
         with:
@@ -69,3 +122,12 @@ jobs:
           version: ${{ env.PACKAGE_VERSION }}
           git_commit_sha: ${{ github.sha }}
           git_tag_prefix: "v"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
