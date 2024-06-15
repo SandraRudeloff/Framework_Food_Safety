@@ -29,16 +29,31 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc pandoc-citeproc
-          curl -o your-style.csl https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl # Replace with your CSL file URL
+          curl -o references/apa.csl https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl # Replace with your CSL file URL if different
+
+      - name: Verify contents directory
+        run: |
+          echo "Checking contents directory"
+          ls -lR content
+
+      - name: Verify references directory and files
+        run: |
+          echo "Checking references directory"
+          ls -l references
+          echo "Checking zotero_library.bib"
+          cat references/zotero_library.bib
 
       - name: Convert Markdown to Markdown with Citations
         run: |
-          mkdir converted_md
-          for file in content/*.md; do
-            pandoc "$file" --filter pandoc-citeproc --bibliography="references/zotero_library.bib" --csl=your-style.csl -t markdown -o "converted_md/$(basename "$file")"
+          mkdir -p converted_md
+          find content -name "*.md" | while read file; do
+            echo "Processing $file"
+            pandoc "$file" --filter pandoc-citeproc --bibliography="references/zotero_library.bib" --csl=references/apa.csl -t markdown -o "converted_md/$(basename "$file")"
+            echo "Converted content of $(basename "$file"):"
+            cat "converted_md/$(basename "$file")"
           done
 
-      - name: Move converted files to content
+      - name: Move converted files to contents
         run: |
           rm -rf content
           mv converted_md content
