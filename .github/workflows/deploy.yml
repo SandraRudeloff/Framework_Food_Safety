@@ -32,7 +32,7 @@ jobs:
         run: |
           mkdir -p converted_html
           for file in $(find . -name '*.md'); do
-            pandoc "$file" -o "converted_html/$(basename "$file" .md).html" --citeproc --bibliography="/Users/sandi/Documents/framework_food_safety/zotero_library.bib" --csl="/Users/sandi/Zotero/styles/vancouver-brackets.csl"
+            pandoc "$file" -o "converted_html/$(basename "$file" .md).html" --citeproc --bibliography="/references/zotero_library.bib" --csl="/references/apa.csl"
           done
       - name: Build Quartz
         run: npx quartz build
