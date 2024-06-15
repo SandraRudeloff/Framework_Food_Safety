@@ -26,6 +26,13 @@ jobs:
           node-version: 18.14
       - name: Install Dependencies
         run: npm ci
+      - name: Install Pandoc
+        run: sudo apt-get install -y pandoc
+      - name: Convert Markdown to HTML with Pandoc
+        run: | mkdir -p converted_html
+        for file in $(find . -name '*.md'); do
+        pandoc "$file" -o "converted_html/$(basename "$file" .md).html" --citeproc --bibliography="/Users/sandi/Documents/framework_food_safety/zotero_library.bib" --csl="/Users/sandi/Zotero/styles/vancouver-brackets.csl"
+        done
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
