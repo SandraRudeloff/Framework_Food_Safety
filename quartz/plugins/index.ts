@@ -1,6 +1,6 @@
-import { StaticResources } from "../util/resources"
-import { FilePath, FullSlug } from "../util/path"
 import { BuildCtx } from "../util/ctx"
+import { FilePath, FullSlug } from "../util/path"
+import { StaticResources } from "../util/resources"
 
 export function getStaticResourcesFromPlugins(ctx: BuildCtx) {
   const staticResources: StaticResources = {
@@ -38,9 +38,10 @@ export function getStaticResourcesFromPlugins(ctx: BuildCtx) {
   return staticResources
 }
 
-export * from "./transformers"
-export * from "./filters"
 export * from "./emitters"
+export * from "./filters"
+export * from "./transformers"
+// other existing exports...
 
 declare module "vfile" {
   // inserted in processors.ts
