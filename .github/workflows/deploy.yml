@@ -34,14 +34,14 @@ jobs:
       - name: Convert Markdown to Markdown with Citations
         run: |
           mkdir converted_md
-          for file in contents/*.md; do
+          for file in content/*.md; do
             pandoc "$file" --filter pandoc-citeproc --bibliography="references/zotero_library.bib" --csl=your-style.csl -t markdown -o "converted_md/$(basename "$file")"
           done
 
-      - name: Move converted files to contents
+      - name: Move converted files to content
         run: |
-          rm -rf contents
-          mv converted_md contents
+          rm -rf content
+          mv converted_md content
 
       - name: Install Dependencies
         run: npm ci
