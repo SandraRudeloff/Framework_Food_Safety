@@ -1,4 +1,7 @@
 ---
+title: Clinical Specimens
+draft: false
+tags: 
 Type:
   - Entity
   - given data

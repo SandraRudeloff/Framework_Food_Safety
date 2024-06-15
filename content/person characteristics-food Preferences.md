@@ -1,4 +1,7 @@
 ---
+title: person characteristics-food Preferences
+draft: false
+tags: 
 Type:
   - Entity
   - pre-collectable data

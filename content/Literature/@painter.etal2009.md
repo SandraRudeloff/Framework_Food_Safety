@@ -1,5 +1,6 @@
 ---
-Title: "Recipes for Foodborne Outbreaks: A Scheme for Categorizing and Grouping Implicated Foods"
+title: "Recipes for Foodborne Outbreaks: A Scheme for Categorizing and Grouping Implicated Foods"
+draft: false
 aliases: 
 - Recipes for Foodborne Outbreaks: A Scheme for Categorizing and Grouping Implicated Foods
 - Recipes for foodborne outbreaks: a scheme for categorizing and grouping implicated foods

@@ -1,3 +1,8 @@
+---
+title: Annotation Colors
+draft: false
+---
+
 | Highlighting Color                                     | Meaning                                             |
 | ------------------------------------------------------ | --------------------------------------------------- |
 | <mark style="background-color: #ffd400">yellow </mark> | Interesting Point                                   |

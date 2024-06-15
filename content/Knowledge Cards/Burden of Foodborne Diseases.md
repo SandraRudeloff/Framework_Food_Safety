@@ -1,4 +1,6 @@
 ---
+title: Burden of Foodborne Diseases
+draft: false
 aliases:
   - burden of foodborne diseases
 tags:

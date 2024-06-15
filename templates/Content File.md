@@ -4,6 +4,7 @@ draft: false
 tags: 
 Type: 
 Category: 
-Linked_to_Framework:
+Linked_to_Framework: false
+publish: "false"
 ---
 <% await tp.file.move("content/" + tp.file.title) %>

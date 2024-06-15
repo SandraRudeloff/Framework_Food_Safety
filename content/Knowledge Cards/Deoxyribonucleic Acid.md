@@ -1,4 +1,6 @@
 ---
+title: Deoxyribonucleic Acid
+draft: false
 aliases:
   - DNA
 tags:

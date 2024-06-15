@@ -1,4 +1,6 @@
 ---
+title: Escherichia coli
+draft: false
 aliases:
   - E. coli
   - STEC

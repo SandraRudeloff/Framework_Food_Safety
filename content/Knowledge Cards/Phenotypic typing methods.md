@@ -1,4 +1,6 @@
 ---
+title: Phenotypic typing methods
+draft: false
 aliases: 
 tags:
   - Topics/microorganisms

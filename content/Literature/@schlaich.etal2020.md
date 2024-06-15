@@ -1,5 +1,6 @@
 ---
-Title: "A Gravity-Based Food Flow Model to Identify the Source of Foodborne Disease Outbreaks"
+title: "A Gravity-Based Food Flow Model to Identify the Source of Foodborne Disease Outbreaks"
+draft: false
 aliases: 
 - A Gravity-Based Food Flow Model to Identify the Source of Foodborne Disease Outbreaks
 - A gravity-based food flow model to identify the source of foodborne disease outbreaks

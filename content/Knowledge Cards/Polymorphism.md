@@ -1,4 +1,6 @@
 ---
+title: Polymorphism
+draft: false
 aliases: 
 tags:
   - Topics/genetics

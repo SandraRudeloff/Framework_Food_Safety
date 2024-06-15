@@ -1,5 +1,6 @@
 ---
-Title: "Accelerating investigation of food-borne disease outbreaks using pro-active geospatial modeling of food supply chains"
+title: "Accelerating investigation of food-borne disease outbreaks using pro-active geospatial modeling of food supply chains"
+draft: false
 aliases: 
 - Accelerating investigation of food-borne disease outbreaks using pro-active geospatial modeling of food supply chains
 - Accelerating investigation of food-borne disease outbreaks using pro-active geospatial modeling of food supply chains

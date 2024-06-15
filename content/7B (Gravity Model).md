@@ -1,4 +1,7 @@
 ---
+title: 7B (Gravity Model)
+draft: false
+tags: 
 Type:
   - Relation
 Category: []

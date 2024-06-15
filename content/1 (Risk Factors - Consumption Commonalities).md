@@ -1,9 +1,13 @@
 ---
+title: 1 (Risk Factors - Consumption Commonalities)
+draft: false
+tags: 
 Type:
   - Relation
 Category: []
 Linked_to_Framework?: true
 ---
+
 This is the standard way. The goal is to find some evidence for a common exposure, e.g. consumption of a certain food item in a defined time period before disease onset or a locations that was visited by all cases (restaurant, hospital, ... ) 
 
 > Exposures should be prioritized based on: 

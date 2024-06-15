@@ -1,4 +1,7 @@
 ---
+title: 10 (Item Prediction based on outbreak data)
+draft: false
+tags: 
 Type:
   - Relation
 Category: []

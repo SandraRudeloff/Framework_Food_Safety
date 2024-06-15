@@ -1,3 +1,8 @@
+---
+title: Composition of Foods
+draft: false
+---
+
 > For a microorganism to establish within a food environment, it must be able to acquire the necessary nutrient needed for energy production and cellular biosynthesis. 
 
 @demirci.etal2020, Chapter 1.1 & 1.2

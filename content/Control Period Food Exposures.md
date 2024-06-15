@@ -1,4 +1,7 @@
 ---
+title: Control Period Food Exposures
+draft: false
+tags: 
 Type:
   - Entity
   - supportive data

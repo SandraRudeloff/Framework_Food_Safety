@@ -1,4 +1,7 @@
 ---
+title: Source Attribution Studies
+draft: false
+tags: 
 Type:
   - Entity
   - pre-collectable data
@@ -91,7 +94,7 @@ Source-Specificity: identify strains that are source specific / identify strains
 > 
 > **Standardization**
 > The use of a standardized subtyping method is a prerequisite 
-> e.g. [[@centersfordiseasecontrolandpreventioncdc2023a|PulseNet]] is promoting standards for [[Pulsed-Field Gel electrophoresis|PFGE]] for molecular typing of foodborne pathogens
+> e.g. [[@centersfordiseasecontrolandpreventioncdc2023a|PulseNet]] is promoting standards for[](Whole%20Genome%20Sequencing.md)s|PFGE]] for molecular typing of foodborne pathogens
 
 **Additional Factors Influencing Source Attribution Accuracy**
 [@mughini-gras.etal2019]

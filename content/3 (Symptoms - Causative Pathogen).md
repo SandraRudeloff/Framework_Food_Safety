@@ -1,4 +1,7 @@
 ---
+title: 3 (Symptoms - Causative Pathogen)
+draft: false
+tags: 
 Type:
   - Relation
 Category: []

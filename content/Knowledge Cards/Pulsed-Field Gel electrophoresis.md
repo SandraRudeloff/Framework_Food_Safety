@@ -1,4 +1,6 @@
 ---
+title: Pulsed-Field Gel electrophoresis
+draft: false
 aliases:
   - PFGE
   - pulsed-field gel electrophoresis

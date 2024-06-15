@@ -1,5 +1,6 @@
 ---
-Title: "Hypothesis Generation During Foodborne-Illness Outbreak Investigations"
+title: "Hypothesis Generation During Foodborne-Illness Outbreak Investigations"
+draft: false
 aliases: 
 - Hypothesis Generation During Foodborne-Illness Outbreak Investigations
 - Hypothesis generation during foodborne-illness outbreak investigations

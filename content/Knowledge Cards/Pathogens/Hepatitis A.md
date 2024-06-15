@@ -1,4 +1,6 @@
 ---
+title: Hepatitis A
+draft: false
 aliases:
   - HAV
   - hepatitis A

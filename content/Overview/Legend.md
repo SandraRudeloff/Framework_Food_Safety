@@ -1,3 +1,8 @@
+---
+title: Legend
+draft: false
+---
+
 There is Entities and Relations. The entities are in squares while the relationships are visualized using directed arrows.The entities can be either 
 - <span style="background:#BAC8D3">given data</span>
 	- Describe if the data is always or only sometimes available

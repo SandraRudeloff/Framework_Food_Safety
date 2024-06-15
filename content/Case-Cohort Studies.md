@@ -1,4 +1,7 @@
 ---
+title: Case-Cohort Studies
+draft: false
+tags: 
 Type:
   - Relation
 Category:

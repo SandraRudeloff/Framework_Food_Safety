@@ -1,5 +1,6 @@
 ---
-Title: "PulseNet"
+title: "PulseNet"
+draft: false
 aliases: 
 - PulseNet
 - Pulsenet

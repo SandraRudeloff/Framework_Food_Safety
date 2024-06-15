@@ -1,4 +1,6 @@
 ---
+title: Genotypic typing methods
+draft: false
 aliases:
   - Molecular typing methods
 tags:

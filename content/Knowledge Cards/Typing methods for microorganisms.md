@@ -1,4 +1,6 @@
 ---
+title: Typing methods for microorganisms
+draft: false
 aliases:
   - Microbial typing
 tags:

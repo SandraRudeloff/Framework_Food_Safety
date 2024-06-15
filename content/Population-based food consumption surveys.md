@@ -1,4 +1,7 @@
 ---
+title: Population-based food consumption surveys
+draft: false
+tags: 
 Type:
   - Entity
   - pre-collectable data

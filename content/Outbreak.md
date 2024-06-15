@@ -1,4 +1,7 @@
 ---
+title: Outbreak
+draft: false
+tags: 
 Linked_to_Framework?: true
 Type:
   - Entity

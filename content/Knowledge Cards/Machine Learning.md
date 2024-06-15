@@ -1,4 +1,6 @@
 ---
+title: Machine Learning
+draft: false
 alias: ML
 tags: 
 ---

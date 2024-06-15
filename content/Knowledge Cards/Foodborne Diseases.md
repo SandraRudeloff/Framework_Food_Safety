@@ -1,4 +1,6 @@
 ---
+title: Foodborne Diseases
+draft: false
 aliases:
   - foodborne pathogen
   - FBD

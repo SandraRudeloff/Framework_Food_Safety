@@ -1,4 +1,6 @@
 ---
+title: POS Data
+draft: false
 Type:
   - Entity
 Category: []

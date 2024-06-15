@@ -1,4 +1,6 @@
 ---
+title: Campylobacter
+draft: false
 aliases:
   - Campylobacter spp.
 tags:

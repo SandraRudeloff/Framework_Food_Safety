@@ -1,4 +1,6 @@
 ---
+title: Shigella
+draft: false
 aliases: 
 tags:
   - Topics/food_safety/pathogens

@@ -1,4 +1,6 @@
 ---
+title: Genomic plasticity
+draft: false
 aliases:
   - plasticity
 tags:

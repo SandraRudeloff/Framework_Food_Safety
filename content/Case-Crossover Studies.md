@@ -1,4 +1,7 @@
 ---
+title: Case-Crossover Studies
+draft: false
+tags: 
 Type:
   - Relation
 Category:

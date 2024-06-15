@@ -1,4 +1,7 @@
 ---
+title: <Case-Chaos Studies
+draft: false
+tags: 
 Type:
   - Relation
 Category:

@@ -1,4 +1,6 @@
 ---
+title: Salmonella
+draft: false
 aliases:
   - Salmonella spp.
 tags:

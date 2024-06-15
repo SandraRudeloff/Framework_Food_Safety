@@ -1,4 +1,7 @@
 ---
+title: Pathogen Affinity
+draft: false
+tags: 
 Type:
   - Entity
   - pre-collectable data

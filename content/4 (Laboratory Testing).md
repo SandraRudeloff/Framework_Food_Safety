@@ -1,4 +1,7 @@
 ---
+title: 4 (Laboratory Testing)
+draft: false
+tags: 
 Type:
   - Relation
 Category: []

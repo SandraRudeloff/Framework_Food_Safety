@@ -1,4 +1,6 @@
 ---
+title: Listeria
+draft: false
 aliases: 
 tags:
   - Topics/food_safety/pathogens

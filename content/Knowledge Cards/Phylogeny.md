@@ -1,4 +1,6 @@
 ---
+title: Phylogeny
+draft: false
 aliases:
   - phylogenetic
 tags:

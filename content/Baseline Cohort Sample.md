@@ -1,4 +1,7 @@
 ---
+title: Baseline Cohort Sample
+draft: false
+tags: 
 Type:
   - Entity
   - supportive data

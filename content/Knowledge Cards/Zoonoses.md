@@ -1,4 +1,6 @@
 ---
+title: Zoonoses
+draft: false
 aliases:
   - zoonotic
 tags:

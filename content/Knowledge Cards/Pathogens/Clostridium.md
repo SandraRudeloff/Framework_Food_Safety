@@ -1,4 +1,6 @@
 ---
+title: Clostridium
+draft: false
 aliases:
   - Clostridium spp.
 tags:

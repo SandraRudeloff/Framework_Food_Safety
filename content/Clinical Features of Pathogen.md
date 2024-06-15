@@ -1,4 +1,7 @@
 ---
+title: Clinical Features of Pathogen
+draft: false
+tags: 
 Type:
   - Entity
   - pre-collectable data

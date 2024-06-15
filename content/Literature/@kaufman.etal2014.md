@@ -1,5 +1,6 @@
 ---
-Title: "A Likelihood-Based Approach to Identifying Contaminated Food Products Using Sales Data: Performance and Challenges"
+title: "A Likelihood-Based Approach to Identifying Contaminated Food Products Using Sales Data: Performance and Challenges"
+draft: false
 aliases: 
 - A Likelihood-Based Approach to Identifying Contaminated Food Products Using Sales Data: Performance and Challenges
 - A likelihood-based approach to identifying contaminated food products using sales data: performance and challenges

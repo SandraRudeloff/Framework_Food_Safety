@@ -1,4 +1,7 @@
 ---
+title: Case Control Studies
+draft: false
+tags: 
 Type:
   - Relation
 Category:

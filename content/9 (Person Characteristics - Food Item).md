@@ -1,4 +1,7 @@
 ---
+title: 9 (Person Characteristics - Food Item)
+draft: false
+tags: 
 Type:
   - Relation
 Category: []

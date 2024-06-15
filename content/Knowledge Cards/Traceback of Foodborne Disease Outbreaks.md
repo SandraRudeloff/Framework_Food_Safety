@@ -1,4 +1,6 @@
 ---
+title: Traceback of Foodborne Disease Outbreaks
+draft: false
 aliases:
   - Steps in the investigation of a foodborne disease outbreak
   - Investigations of foodborne disease outbreaks

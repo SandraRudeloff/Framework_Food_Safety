@@ -1,4 +1,6 @@
 ---
+title: Norovirus
+draft: false
 aliases:
   - norovirus
 tags:

@@ -1,4 +1,6 @@
 ---
+title: Allele
+draft: false
 aliases: 
 tags:
   - Topics/genetics

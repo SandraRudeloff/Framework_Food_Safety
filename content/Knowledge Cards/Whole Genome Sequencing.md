@@ -1,4 +1,6 @@
 ---
+title: Whole Genome Sequencing
+draft: false
 aliases:
   - WGS
 tags:

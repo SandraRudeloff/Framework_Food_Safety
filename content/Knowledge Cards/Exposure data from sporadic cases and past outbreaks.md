@@ -1,4 +1,6 @@
 ---
+title: Exposure data from sporadic cases and past outbreaks
+draft: false
 Type:
   - Entity
   - pre-collectable data

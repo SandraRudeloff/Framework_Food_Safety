@@ -1,3 +1,8 @@
+---
+title: Data from Market Research Panels
+draft: false
+---
+
 panels comprise individuals who have elected to receive online questionnaires and can opt to complete a given questionnaire in return for a reward. Although most often used by marketing companies or polling organisations to obtain information about a target audience, these panels have also been used to collect epidemiological exposure data. @inns.etal2019 
 
 - [p] “efficiency with which large numbers of controls can be rapidly recruited with little public health resource” @inns.etal2019, p. 6

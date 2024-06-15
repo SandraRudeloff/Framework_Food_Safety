@@ -1,4 +1,7 @@
 ---
+title: Food Supply Network
+draft: false
+tags: 
 Type:
   - Entity
   - pre-collectable data

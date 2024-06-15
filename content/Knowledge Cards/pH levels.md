@@ -1,3 +1,8 @@
+---
+title: pH levels
+draft: false
+---
+
 ## What is pH Value?
 - measure of a substance's acidity or alkalinity
 - negative logarithm of the concentration of hydrogen ions in a solution

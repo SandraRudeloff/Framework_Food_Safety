@@ -1,4 +1,6 @@
 ---
+title: plasmids
+draft: false
 aliases: 
 tags:
   - Topics/genetics

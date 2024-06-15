@@ -1,5 +1,6 @@
 ---
-Title: "Foodborne illness source attribution estimates for 2017 for Salmonella, Escherichia coli O157, Listeria monocytogenes, and Campylobacter using multi-year outbreak surveillance data, United States"
+title: "Foodborne illness source attribution estimates for 2017 for Salmonella, Escherichia coli O157, Listeria monocytogenes, and Campylobacter using multi-year outbreak surveillance data, United States"
+draft: false
 aliases: 
 - Foodborne illness source attribution estimates for 2017 for Salmonella, Escherichia coli O157, Listeria monocytogenes, and Campylobacter using multi-year outbreak surveillance data, United States
 - Foodborne illness source attribution estimates for 2017 for salmonella, escherichia coli o157, listeria monocytogenes, and campylobacter using multi-year outbreak surveillance data, united states

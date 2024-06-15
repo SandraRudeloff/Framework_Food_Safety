@@ -1,5 +1,6 @@
 ---
-Title: "Population-based food consumption survey as an additional tool for foodborne outbreak investigations, Germany, 2017"
+title: "Population-based food consumption survey as an additional tool for foodborne outbreak investigations, Germany, 2017"
+draft: false
 aliases: 
 - Population-based food consumption survey as an additional tool for foodborne outbreak investigations, Germany, 2017
 - Population-based food consumption survey as an additional tool for foodborne outbreak investigations, germany, 2017

@@ -1,4 +1,7 @@
 ---
+title: Control Data
+draft: false
+tags: 
 Type:
   - Entity
   - supportive data

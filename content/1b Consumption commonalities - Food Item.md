@@ -1,4 +1,7 @@
 ---
+title: 1b Consumption commonalities - Food Item
+draft: false
+tags: 
 Type:
   - Relation
 Category:

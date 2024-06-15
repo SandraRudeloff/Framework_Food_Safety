@@ -1,4 +1,7 @@
 ---
+title: 7a (Likelihood-Based Method)
+draft: false
+tags: 
 Type:
   - Relation
 Category: []

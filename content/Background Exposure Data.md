@@ -1,4 +1,7 @@
 ---
+title: Background Exposure Data
+draft: false
+tags: 
 Type:
   - Entity
   - pre-collectable data

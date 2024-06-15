@@ -1,4 +1,7 @@
 ---
+title: 6 (Consumer purchase data - Risk Factor Information)
+draft: false
+tags: 
 Type:
   - Relation
 Category: []

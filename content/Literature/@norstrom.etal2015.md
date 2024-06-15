@@ -1,5 +1,6 @@
 ---
-Title: "An Adjusted Likelihood Ratio Approach Analysing Distribution of Food Products to Assist the Investigation of Foodborne Outbreaks"
+title: "An Adjusted Likelihood Ratio Approach Analysing Distribution of Food Products to Assist the Investigation of Foodborne Outbreaks"
+draft: false
 aliases: 
 - An Adjusted Likelihood Ratio Approach Analysing Distribution of Food Products to Assist the Investigation of Foodborne Outbreaks
 - An adjusted likelihood ratio approach analysing distribution of food products to assist the investigation of foodborne outbreaks

@@ -1,4 +1,7 @@
 ---
+title: Causative Pathogen
+draft: false
+tags: 
 Type:
   - Entity
   - derived data

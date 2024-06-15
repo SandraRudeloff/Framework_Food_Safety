@@ -1,5 +1,6 @@
 ---
-Title: "Emerging Applications of Machine Learning in Food Safety"
+title: "Emerging Applications of Machine Learning in Food Safety"
+draft: false
 aliases: 
 - Emerging Applications of Machine Learning in Food Safety
 - Emerging applications of machine learning in food safety

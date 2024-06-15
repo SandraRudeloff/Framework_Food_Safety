@@ -1,5 +1,6 @@
 ---
-Title: "Source Attribution of Human Salmonellosis: An Overview of Methods and Estimates"
+title: "Source Attribution of Human Salmonellosis: An Overview of Methods and Estimates"
+draft: false
 aliases: 
 - Source Attribution of Human Salmonellosis: An Overview of Methods and Estimates
 - Source attribution of human salmonellosis: an overview of methods and estimates

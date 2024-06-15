@@ -1,4 +1,7 @@
 ---
+title: Binomial Trial
+draft: false
+tags: 
 Type:
   - Relation
 Category:

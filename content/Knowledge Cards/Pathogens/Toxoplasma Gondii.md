@@ -1,4 +1,6 @@
 ---
+title: Toxoplasma Gondii
+draft: false
 aliases:
   - Toxoplasma
 tags:

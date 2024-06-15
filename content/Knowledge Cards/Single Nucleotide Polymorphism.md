@@ -1,4 +1,6 @@
 ---
+title: Single Nucleotide Polymorphism
+draft: false
 aliases:
   - SNP
   - single nucleotide polymorphisms
