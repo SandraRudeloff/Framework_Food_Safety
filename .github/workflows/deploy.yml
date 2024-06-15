@@ -36,20 +36,17 @@ jobs:
           wget https://github.com/jgm/pandoc/releases/download/3.1.1/pandoc-3.1.1-1-amd64.deb
           sudo dpkg -i pandoc-3.1.1-1-amd64.deb
 
-      - name: Verify Pandoc Installation
-        run: pandoc --version
-
       - name: Verify Bibliography and CSL files
         run: |
           if [ ! -f references/zotero_library.bib ]; then echo "Bibliography file not found!"; exit 1; fi
-          if [ ! -f references/vancouver-brackets.csl ]; then echo "CSL file not found!"; exit 1; fi
+          if [ ! -f references/apa.csl ]; then echo "CSL file not found!"; exit 1; fi
 
       - name: Convert Markdown to HTML with Pandoc
         run: |
           mkdir -p converted_html
           for file in $(find . -name '*.md'); do
             echo "Processing $file..."
-            pandoc "$file" -o "converted_html/$(basename "$file" .md).html" --citeproc --bibliography="references/zotero_library.bib" --csl="references/vancouver-brackets.csl"
+            pandoc "$file" -o "converted_html/$(basename "$file" .md).html" --citeproc --bibliography="references/zotero_library.bib" --csl="references/apa.csl"
             if [ $? -ne 0 ]; then echo "Error processing $file"; exit 1; fi
           done
 
