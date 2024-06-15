@@ -21,21 +21,44 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0 # Fetch all history for git info
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18.14
+
       - name: Install Dependencies
         run: npm ci
-      - name: Install Pandoc
-        run: sudo apt-get install -y pandoc
+
+      - name: Install Latest Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget
+          wget https://github.com/jgm/pandoc/releases/download/3.1.1/pandoc-3.1.1-1-amd64.deb
+          sudo dpkg -i pandoc-3.1.1-1-amd64.deb
+
+      - name: Verify Pandoc Installation
+        run: pandoc --version
+
+      - name: Verify Bibliography and CSL files
+        run: |
+          if [ ! -f references/zotero_library.bib ]; then echo "Bibliography file not found!"; exit 1; fi
+          if [ ! -f references/vancouver-brackets.csl ]; then echo "CSL file not found!"; exit 1; fi
+
       - name: Convert Markdown to HTML with Pandoc
         run: |
           mkdir -p converted_html
           for file in $(find . -name '*.md'); do
-            pandoc "$file" -o "converted_html/$(basename "$file" .md).html" --citeproc --bibliography="/references/zotero_library.bib" --csl="/references/apa.csl"
+            echo "Processing $file..."
+            pandoc "$file" -o "converted_html/$(basename "$file" .md).html" --citeproc --bibliography="references/zotero_library.bib" --csl="references/vancouver-brackets.csl"
+            if [ $? -ne 0 ]; then echo "Error processing $file"; exit 1; fi
           done
+
+      - name: List Converted HTML Files
+        run: ls -l converted_html
+
       - name: Build Quartz
         run: npx quartz build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
