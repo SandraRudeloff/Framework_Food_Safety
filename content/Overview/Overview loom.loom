@@ -1,0 +1,214 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "c320a8cd-c171-4037-b297-950c488be0ef",
+        "sortDir": "default",
+        "isVisible": false,
+        "width": "140px",
+        "type": "source",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Source",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "77b4972d-2415-418c-99c2-7cb880d44992",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "96px",
+        "type": "checkbox",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Linked to Framework?",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": "Linked_to_Framework?",
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "05d4ee71-05a0-440e-abd1-0538c3132b5e",
+        "sortDir": "desc",
+        "isVisible": true,
+        "width": "382px",
+        "type": "source-file",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Source File",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "count-all",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "79481bd7-2cdd-4e9c-9143-666f8274634b",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "223px",
+        "type": "multi-tag",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Type",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [
+          {
+            "id": "e45f4055-ec66-40d6-8776-f2bc089559a2",
+            "content": "Entity",
+            "color": "light gray"
+          },
+          {
+            "id": "296c9ade-fa03-429b-825d-eec7c1b50604",
+            "content": "Relation",
+            "color": "light gray"
+          },
+          {
+            "id": "ee5ce7ef-520b-411f-b881-874eb5858833",
+            "content": "given data",
+            "color": "blue"
+          },
+          {
+            "id": "2df2b673-c559-4865-af6b-de9acc2ded3e",
+            "content": "pre-collectable data",
+            "color": "purple"
+          },
+          {
+            "id": "8d850e9b-eb52-4711-ae0b-62f0276a527b",
+            "content": "wanted data",
+            "color": "green"
+          },
+          {
+            "id": "53e38eec-215c-410e-923a-c489fa7b110f",
+            "content": "supportive data",
+            "color": "orange"
+          },
+          {
+            "id": "1a2f0f96-5f1b-40a3-b780-386398e6b3a0",
+            "content": "derived data",
+            "color": "yellow"
+          }
+        ],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": "Type",
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "b8ebb03b-a69e-4026-9ebb-99696ef6c2c8",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "411px",
+        "type": "multi-tag",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Content Category",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [
+          {
+            "id": "ae0642d8-9287-448e-83d4-56f81fe83c5d",
+            "content": "analytical epidemiological studies",
+            "color": "pink"
+          },
+          {
+            "id": "a8e6322a-6d47-4b5c-a5af-87898cf3a19c",
+            "content": "laboratory data",
+            "color": "gray"
+          },
+          {
+            "id": "8e237179-107b-45a8-ac8b-c5cee717aa15",
+            "content": "traceback data",
+            "color": "gray"
+          },
+          {
+            "id": "f3c2b99f-4c9e-4c4f-adc1-e719cfe0afe4",
+            "content": "epidemiological data",
+            "color": "brown"
+          },
+          {
+            "id": "f9a80ad6-d4f6-415b-8fed-80401f96e94f",
+            "content": "Microbiological Data",
+            "color": "pink"
+          },
+          {
+            "id": "0b887343-508d-487c-9404-27b66802d687",
+            "content": "logistic data",
+            "color": "blue"
+          }
+        ],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": "Category",
+        "multiTagSortDir": "default"
+      }
+    ],
+    "rows": [],
+    "filters": [],
+    "sources": [
+      {
+        "id": "0ae834e1-5fab-41c9-9e40-2d5f35a35fc3",
+        "type": "folder",
+        "path": "/",
+        "includeSubfolders": false
+      }
+    ],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.16.0"
+}
