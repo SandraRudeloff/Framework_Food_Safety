@@ -1,5 +1,5 @@
 ---
-title: <Case-Chaos Studies
+title: Case-Chaos Studies
 draft: false
 tags: 
 Type:
