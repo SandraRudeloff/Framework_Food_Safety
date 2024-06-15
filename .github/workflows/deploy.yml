@@ -29,7 +29,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc pandoc-citeproc
-          curl -o references/apa.csl https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl # Replace with your CSL file URL if different
+          curl -o references/apa.csl https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl # Ensure this URL is correct
 
       - name: Verify contents directory
         run: |
