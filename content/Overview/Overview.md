@@ -1,6 +1,6 @@
 ---
 title: Overview
-draft: false
+draft: true
 ---
 
 ![[Legend]]
@@ -39,7 +39,7 @@ function wrapTags(items) {
 
 dv.table(["File", "Type", "Category"],
     dv.pages("")
-    .where(p => p.Type && !p.file.name.includes("Frontmatter") && p.file.folder === "")
+    .where(p => p.Type && !p.file.name.includes("Frontmatter") && p.file.folder.includes("Framework Cards"))
     .map(p => [
         p.file.link, 
         wrapTags(Array.isArray(p.Type) ? p.Type : [p.Type]),
