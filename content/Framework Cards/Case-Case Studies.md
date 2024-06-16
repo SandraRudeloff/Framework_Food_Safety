@@ -8,7 +8,7 @@ Category:
   - analytical epidemiological studies
 aliases:
   - case-case study
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 compare risk exposures between cases of the outbreak and cases caused by another strain or type of the same pathogen ([[Comparative Case Data]])  
 

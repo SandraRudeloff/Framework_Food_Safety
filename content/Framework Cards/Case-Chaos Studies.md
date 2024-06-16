@@ -6,7 +6,7 @@ Type:
   - Relation
 Category:
   - analytical epidemiological studies
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 compares risk exposure of cases to their randomizing exposure (artificially generated controls) using conditional logistic regression
 - developed by @gillespie.etal2012

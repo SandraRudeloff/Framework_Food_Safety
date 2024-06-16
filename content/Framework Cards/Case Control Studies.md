@@ -9,7 +9,7 @@ Category:
 aliases:
   - case-control study
   - case-control studies
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 **Definition**: observational research method where two groups differing in outcome (disease presence vs. absence) are compared to explore a potential causal relationships between suspected factors and those outcomes. 
 selecting cases (individuals who have the disease) and controls (individuals without the disease) and comparing their exposures to identify potential risk factors.

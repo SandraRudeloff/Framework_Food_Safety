@@ -5,7 +5,7 @@ tags:
 Type:
   - Relation
 Category: []
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 
 If there is high commonalities in person-characteristics this can give some indication of more probable food item categories. This is especially useful if there is no interview data yet. 

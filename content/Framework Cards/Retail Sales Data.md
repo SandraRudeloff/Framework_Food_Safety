@@ -6,7 +6,7 @@ Type:
   - Entity
   - pre-collectable data
 Category: []
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 Encompasses sales data across all stores and products in a region, not limited to specific stores under investigation or specific products. In contrast, [[POS Data]] used in epidemiological studies are usually collected from one store or one restaurant and sometimes even only for certain products. This data can be used earlier in the investigation process, where hypotheses are generated rather than refined or confirmed. 
 

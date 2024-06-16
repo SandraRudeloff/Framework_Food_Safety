@@ -7,7 +7,7 @@ Type:
   - supportive data
 Category:
   - epidemiological data
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 Food exposures during control periods are critical in [[Case-Crossover Studies]] to compare with exposures during the risk periods when the cases were sick. 
 

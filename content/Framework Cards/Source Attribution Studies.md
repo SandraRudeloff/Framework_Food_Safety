@@ -6,7 +6,7 @@ Type:
   - Entity
   - pre-collectable data
 Category: []
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 
  > "As approaches in this area ([[#Novel methods of source attribution]]) mature, they may be applied to predict the source of food-borne disease outbreaks."

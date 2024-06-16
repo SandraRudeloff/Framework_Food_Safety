@@ -2,7 +2,7 @@
   "model": {
     "columns": [
       {
-        "id": "c320a8cd-c171-4037-b297-950c488be0ef",
+        "id": "71401537-b215-4ee1-b5e5-15d18d12e2b2",
         "sortDir": "default",
         "isVisible": false,
         "width": "140px",
@@ -19,7 +19,7 @@
         "includeTime": false,
         "shouldWrapOverflow": true,
         "tags": [],
-        "calculationType": "none",
+        "calculationType": "count-all",
         "aspectRatio": "unset",
         "horizontalPadding": "unset",
         "verticalPadding": "unset",
@@ -30,7 +30,7 @@
         "id": "77b4972d-2415-418c-99c2-7cb880d44992",
         "sortDir": "default",
         "isVisible": true,
-        "width": "96px",
+        "width": "45px",
         "type": "checkbox",
         "numberPrefix": "",
         "numberSuffix": "",
@@ -52,10 +52,10 @@
         "multiTagSortDir": "default"
       },
       {
-        "id": "05d4ee71-05a0-440e-abd1-0538c3132b5e",
-        "sortDir": "desc",
+        "id": "755cdccb-f212-473d-af8b-0c2ca7a319a0",
+        "sortDir": "default",
         "isVisible": true,
-        "width": "382px",
+        "width": "614px",
         "type": "source-file",
         "numberPrefix": "",
         "numberSuffix": "",
@@ -195,13 +195,25 @@
       }
     ],
     "rows": [],
-    "filters": [],
+    "filters": [
+      {
+        "id": "af955f8b-e6bf-4af2-bd14-98f485b20943",
+        "columnId": "79481bd7-2cdd-4e9c-9143-666f8274634b",
+        "operator": "or",
+        "isEnabled": true,
+        "type": "multi-tag",
+        "condition": "contains",
+        "tagIds": [
+          "296c9ade-fa03-429b-825d-eec7c1b50604"
+        ]
+      }
+    ],
     "sources": [
       {
-        "id": "0ae834e1-5fab-41c9-9e40-2d5f35a35fc3",
+        "id": "5e982f92-75b3-4026-a29b-7d640ebcccbe",
         "type": "folder",
-        "path": "/",
-        "includeSubfolders": false
+        "path": "content/Framework Cards",
+        "includeSubfolders": true
       }
     ],
     "settings": {

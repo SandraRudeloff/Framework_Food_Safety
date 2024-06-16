@@ -9,7 +9,7 @@ Category:
 aliases:
   - binomial testing
   - binomial trial
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 - tests whether the likelihood of each case having been exposed to a specific factor is no different from that of the average person in the population. 
 - calculates the binomial probability of observed case exposures compared with [[Background Exposure Data|population reference exposures]], using data on the general population's food consumption patterns to compared to the food exposure data from outbreak cases.

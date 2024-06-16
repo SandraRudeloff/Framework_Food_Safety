@@ -7,7 +7,7 @@ Type:
 Category:
   - analytical epidemiological studies
 aliases: 
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 # Analytical Epidemiological Studies
 Analytical epidemiological studies aim to explore associations between exposures and outcomes within populations. They can differ in 
@@ -37,7 +37,7 @@ Instead of just analyzing the status of sick or non-sick, it is also possible to
 Surrogate Population Exposure Data refers to alternative data sources that estimate the exposure levels of populations to specific risk factors (e.g., contaminated food) when traditional control groups are not feasible or available. 
 - [[POS Data]]
 - [[Exposure data from sporadic cases and past outbreaks]]
-- [[Population-based food consumption surveys]]
+- [[Population-based Food Consumption Surveys]]
 - [[Market Share data]]
 
 

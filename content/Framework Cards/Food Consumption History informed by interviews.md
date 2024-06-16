@@ -6,7 +6,7 @@ Type:
   - Entity
   - given data
 Category: []
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 Interviews are conducted to gain information about the food history of cases. This is the standard way.
 There is different types of interviews depending on the stage of the outbreak. In the preliminary phase of the investigation interviews may be more wide-ranging and open-ended while later on interviews are more systematic by use of a standard questionnaire. @worldhealthorganizationwho2008 

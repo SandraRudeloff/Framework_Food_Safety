@@ -5,7 +5,7 @@ tags:
 Type:
   - Relation
 Category: []
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 @worldhealthorganizationwho2008, p. 19 - 20
 - If the pathogen is known, question in [[Food Consumption History informed by interviews|interviews]] can focus on foods and other risk factors known to be associated with the particular pathogen 

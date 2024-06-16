@@ -6,7 +6,7 @@ Type:
   - Entity
   - wanted data
 Category: []
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 ## Food Categorization Scheme Problem
 

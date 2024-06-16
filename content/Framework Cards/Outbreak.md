@@ -2,7 +2,7 @@
 title: Outbreak
 draft: false
 tags: 
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 Type:
   - Entity
   - given data

@@ -7,7 +7,7 @@ Type:
   - pre-collectable data
 Category:
   - laboratory data
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 - Symptoms & Signs: observable characteristics or manifestations of a disease as experienced by patients
 - incubation Periods

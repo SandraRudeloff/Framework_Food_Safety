@@ -5,7 +5,7 @@ tags:
 Type:
   - Relation
 Category: []
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 Huff's Gravity Model @huff1963 is referenced in several publications for estimating the food flow between supermarkets and customers within the context of food safety investigations. The model uses as inputs:
 - Population Density: represents food demand, typically assuming a uniform distribution where each individual consumes an equal amount of food

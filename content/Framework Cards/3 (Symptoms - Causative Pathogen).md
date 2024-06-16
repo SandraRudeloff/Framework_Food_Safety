@@ -5,7 +5,7 @@ tags:
 Type:
   - Relation
 Category: []
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 Usually, pathogens are identified by [[4 (Laboratory Testing)|laboratory testing]], which is time intensive. Therefore, you can also find out whether the outbreak was caused by an intoxication, an enteric infection or a generalized illness by looking at the symptoms @worldhealthorganizationwho2008. For this the percentage of cases with a particular symptom or sign is calculated an arranged in  table in decreasing order. You use the [[Clinical Features of Pathogen]] of the pathogens for this 
 

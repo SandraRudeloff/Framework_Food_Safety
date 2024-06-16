@@ -5,7 +5,7 @@ tags:
 Type:
   - Relation
 Category: []
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 - [[@doerr.etal2012]] developed the likelihood-based method to identify wholesalers involved in distributing contaminated food given the contaminated food type, its [[Food Supply Network]] and a set of case reports
 - [[@kaufman.etal2014]] applied this model to real [[Retail Sales Data]] in Germany to pinpoint contaminated products, not wholesalers. 

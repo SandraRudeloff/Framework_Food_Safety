@@ -7,7 +7,7 @@ Type:
   - supportive data
 Category:
   - epidemiological data
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 classical methods of control recruitment during foodborne outbreaks include case- or physician-nominated controls, nearest-neighbour recruitment, population registers, or random digit dialing (RDD) @luczynska.etal2023
 - [c] time and resource-consuming [[@rosner.etal2020]] 

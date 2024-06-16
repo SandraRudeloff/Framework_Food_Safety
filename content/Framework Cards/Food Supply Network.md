@@ -8,7 +8,7 @@ Type:
 Category:
   - traceback data
   - logistic data
-Linked_to_Framework?: true
+Linked_to_Framework?: false
 ---
 Food Distribution Networks are structured as nodes and links representing the flow of food from production to end-consumer consumption. These networks are essential for [[8 (Source Estimation)|tracing]] contaminations back to their sources. Before it is actually used, the ability of a network structure to support accurate source identification (traceability) should be measured @lu.etal2019
 
