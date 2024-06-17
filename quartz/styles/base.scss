@@ -520,12 +520,11 @@ ol.overflow {
   overflow-y: hidden;
 }
 
-// styles/main.scss
 
+// References
 .references > div {
   margin-bottom: 1em; // Adjust the value as needed
 }
-
 
 // Add styles for citation links
 span[id^="citation--"] > a {
@@ -537,4 +536,15 @@ span[id^="citation--"] > a {
     color: #CD5C5C !important;
     text-decoration: none;
   }
+}
+.thumbs-up {
+  color: green;
+}
+
+.thumbs-down {
+  color: red;
+}
+
+.question-mark {
+  color: blue;
 }

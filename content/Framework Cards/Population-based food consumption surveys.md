@@ -8,19 +8,30 @@ Type:
 Category: []
 Linked_to_Framework?: true
 ---
-Can be used in [[1b Consumption commonalities - Food Item|Analytical Epidemiological Studies]] or as an alternate datas source or to derive [[Person Characteristics-Food Preferences]]
-These surveys typically collect data on the eating habits and food consumption patterns of different populations. They are useful for identifying typical dietary exposures and can help in estimating the exposure levels of the general population to specific food items during an outbreak.
-The results of food consumption survey can be used in a [[Binomial Trial]] to refine and test hypotheses @jervis.etal2019
-- CDC FoodNet Population Survey, which provides data on hundreds of food exposures for the US” @jervis.etal2019, p. 1413
-- [[@rosner.etal2020]] food consumption survey in Germany
 
-**Advantages & Limitations**
-- [c] Population survey data may not  @taylor.galanis2020
-	- provide a representative control population
-	- match temporally 
-	- include sufficient food product precision 
-	- become outdated
+These surveys typically collect data on the eating habits and food consumption patterns of different populations.They are useful for identifying typical dietary exposures and can help in estimating the exposure levels of the general population to specific food items during an outbreak.
 
-<span style="background:rgba(240, 107, 5, 0.2)"> -  @rosner.etal2020 list limitations of using food consumption surveys</span>
+# Application
+- in [[1b Consumption commonalities - Food Item|Analytical Epidemiological Studies]] as an alternative data source, typically in a [[Binomial Trial]] design to refine and test hypotheses [@jervis.etal2019]
+- to derive [[Person Characteristics-Food Preferences]]
+
+# Examples
+- [CDC FoodNet Population Survey](https://www.cdc.gov/foodnet/surveys/population.html): data on food exposures for the United States [@jervis.etal2019, p. 1413]
+- [[@rosner.etal2020]]: food consumption survey in Germany
+
+# Advantages & Limitations 
+## Advantages
+- Recruitment of control persons for case-control studies in outbreak investigations is generally viewed as being time and resource intensive 
+  -> food consumption survey offer an alternative that can be pre-collected and quickly analyzed when an outbreak happens @rosner.etal2020
+
+## Limitations
+- may not provide a representative control population [@taylor.galanis2020]
+	- may be problematic in investigations of foodborne disease outbreaks among special groups of persons, for example, young children or the elderly @rosner.etal2020
+	- may be problematic if the outbreak is localized to a certain region of a country, where food consumption patterns may differ from those of the general population [@rosner.etal2020] 
+- may not match temporally [@taylor.galanis2020]
+	- the consumption of certain food items, for example, fresh berries, likely varies by season [@rosner.etal2020] 
+- may not include sufficient food product precision [@taylor.galanis2020]
+- may become outdated [@taylor.galanis2020]
+	- limited number of food items in the survey and future outbreaks may involve food items that have not been queried in the food consumption survey [@rosner.etal2020]  
 
 # 📚 References
