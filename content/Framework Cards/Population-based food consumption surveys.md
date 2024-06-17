@@ -21,7 +21,7 @@ These surveys typically collect data on the eating habits and food consumption p
 
 # Advantages & Limitations 
 ## Advantages
-- Recruitment of control persons for case-control studies in outbreak investigations is generally viewed as being time and resource intensive 
+- recruitment of control persons for case-control studies in outbreak investigations is generally viewed as being time and resource intensive 
   -> food consumption survey offer an alternative that can be pre-collected and quickly analyzed when an outbreak happens @rosner.etal2020
 
 ## Limitations
