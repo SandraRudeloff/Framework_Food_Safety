@@ -195,19 +195,7 @@
       }
     ],
     "rows": [],
-    "filters": [
-      {
-        "id": "af955f8b-e6bf-4af2-bd14-98f485b20943",
-        "columnId": "79481bd7-2cdd-4e9c-9143-666f8274634b",
-        "operator": "or",
-        "isEnabled": true,
-        "type": "multi-tag",
-        "condition": "contains",
-        "tagIds": [
-          "296c9ade-fa03-429b-825d-eec7c1b50604"
-        ]
-      }
-    ],
+    "filters": [],
     "sources": [
       {
         "id": "5e982f92-75b3-4026-a29b-7d640ebcccbe",
