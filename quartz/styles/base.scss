@@ -519,3 +519,22 @@ ol.overflow {
   overflow-x: auto;
   overflow-y: hidden;
 }
+
+// styles/main.scss
+
+.references > div {
+  margin-bottom: 1em; // Adjust the value as needed
+}
+
+
+// Add styles for citation links
+span[id^="citation--"] > a {
+  color: #CD5C5C; // Example color for dark yellow
+  text-decoration: none;
+  font-weight: normal;
+
+  &:hover {
+    color: #CD5C5C !important;
+    text-decoration: none;
+  }
+}

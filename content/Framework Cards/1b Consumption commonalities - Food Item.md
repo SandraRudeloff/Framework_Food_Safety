@@ -19,7 +19,7 @@ Analytical epidemiological studies aim to explore associations between exposures
 ## Purposes
 Analytical Epidemiological Studies can  be used in different situations during investigations of foodborne disease outbreaks: 
 1. **refine a hypotheses:** In outbreaks where **cases do not have an obvious common place of exposure,** the analytical epidemiological study will often be designed as a case-control study where patients with the disease (cases) will be compared to a group of persons without the disease (controls) regarding the frequency of exposure to the suspected food items [[@rosner.etal2020]]
-2. **test a hypotheses** in absence of microbiological evidence, A well-conducted case-control study may substantiate or form core evidence as to the vehicle of a foodborne outbreak and is often a very important investigation tool, particularly in situations where microbiological proof cannot be obtained. @kuhn.ethelberg2021
+2. **test a hypotheses** in absence of microbiological evidence, A well-conducted case-control study may substantiate or form core evidence as to the vehicle of a foodborne outbreak and is often a very important investigation tool, particularly in situations where microbiological proof cannot be obtained [@kuhn.ethelberg2021].
 3. for prevention, e.g. for [[Source Attribution Studies]] ( @gu.etal2015 or [Gillespie et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20586610/))
 
 ## Study Designs
@@ -47,3 +47,4 @@ Surrogate Population Exposure Data refers to alternative data sources that estim
 
 
 
+# 📚 References

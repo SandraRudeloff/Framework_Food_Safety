@@ -19,7 +19,7 @@ export const PandocCitations: QuartzTransformerPlugin<Options> = (opts?: Options
     htmlPlugins() {
       return [
         [remarkRehype, { allowDangerousHtml: true }],
-        [rehypeCitation, { bibliography }],
+        [rehypeCitation, { bibliography, linkCitations: true }],
       ]
     },
   }
