@@ -195,7 +195,17 @@
       }
     ],
     "rows": [],
-    "filters": [],
+    "filters": [
+      {
+        "id": "6b16d67c-78a9-4e53-ae60-c0fc19c50fc3",
+        "columnId": "77b4972d-2415-418c-99c2-7cb880d44992",
+        "operator": "or",
+        "isEnabled": true,
+        "type": "checkbox",
+        "condition": "is",
+        "value": false
+      }
+    ],
     "sources": [
       {
         "id": "5e982f92-75b3-4026-a29b-7d640ebcccbe",

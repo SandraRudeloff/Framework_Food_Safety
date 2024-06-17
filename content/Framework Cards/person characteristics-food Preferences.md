@@ -1,5 +1,5 @@
 ---
-title: person characteristics-food Preferences
+title: Person Characteristics-Food Preferences
 draft: false
 tags: 
 Type:

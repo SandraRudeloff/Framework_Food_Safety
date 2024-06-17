@@ -5,7 +5,7 @@ tags:
 Type:
   - Relation
 Category: []
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 ---
 - [[@doerr.etal2012]] developed the likelihood-based method to identify wholesalers involved in distributing contaminated food given the contaminated food type, its [[Food Supply Network]] and a set of case reports
 - [[@kaufman.etal2014]] applied this model to real [[Retail Sales Data]] in Germany to pinpoint contaminated products, not wholesalers. 
@@ -29,10 +29,13 @@ Linked_to_Framework?: false
 
 | **Publication**       | **Method Used**                                    | **Data Inputs**                                                                             | **Outputs**                                                                                                 |
 | --------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [[@doerr.etal2012]]       | Likelihood-based approach (LBA)                    | Synthetic food sales data, synthetic outbreak data                                          | Identification of wholesalers likely involved in distributing contaminated food                             |
+| [[@doerr.etal2012]]   | Likelihood-based approach (LBA)                    | Synthetic food sales data, synthetic outbreak data                                          | Identification of wholesalers likely involved in distributing contaminated food                             |
 | [[@kaufman.etal2014]] | Likelihood-based approach (LBA)                    | Real food sales data from Germany, artificial outbreak scenarios                            | Identification of specific contaminated food products; comparison of LBA with Spearman’s correlation method |
 | @norstrom.etal2015    | Adjusted Likelihood Ratio Approach                 | Real outbreak data, consumption and exposure intervals, shopping habits from questionnaires | Adjustment for time, space, and data errors; refined predictions of contaminated products                   |
 | @hu.etal2016          | Framework embedding LBA with statistical analytics | Food distribution models, outbreak generator, various metrics for performance monitoring    | Operational framework that supports data integration and methodology comparison                             |
 | @hu.etal2016a         | Application of framework in experimental settings  | Artificial networks of food supply chain, new performance metrics                           | Demonstration of accelerated foodborne illness investigation                                                |
+
+
 ![[Overview Item Identification.png|1500]]
 
+# 📚 References

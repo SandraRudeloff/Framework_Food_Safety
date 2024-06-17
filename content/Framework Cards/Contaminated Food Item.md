@@ -6,7 +6,7 @@ Type:
   - Entity
   - wanted data
 Category: []
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 ---
 ## Food Categorization Scheme Problem
 
@@ -45,5 +45,4 @@ comprehensive food classification and description system designed to support var
 [Eftimov et al., 2017](https://www.mdpi.com/2072-6643/9/6/542)
 
 
-
-
+# 📚 References

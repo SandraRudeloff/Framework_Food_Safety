@@ -6,7 +6,7 @@ Type:
   - Entity
   - pre-collectable data
 Category: []
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 ---
 
  > "As approaches in this area ([[#Novel methods of source attribution]]) mature, they may be applied to predict the source of food-borne disease outbreaks."
@@ -343,3 +343,5 @@ Efsa (2014). Guidance on expert knowledge elicitation in food and feed safety ri
 ### Reviews 
 - [@cardimfalcao.etal2024]
 - [@mughini-gras.etal2019]
+
+# 📚 References

@@ -2,11 +2,11 @@
 title: Time Dynamics
 draft: false
 tags: 
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 Type:
   - Entity
   - given data
-Category:
+Category: []
 ---
 Time Aspects include:
 - Onset of illness of each case

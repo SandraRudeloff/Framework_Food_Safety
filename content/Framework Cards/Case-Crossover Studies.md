@@ -8,7 +8,7 @@ Category:
   - analytical epidemiological studies
 aliases:
   - case-crossover study
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 ---
 - compares exposure levels in the same individuals at times near an event (risk period) to their [[Control Period Food Exposures|exposure levels at other times (control periods)]]
 - Individuals serve as their own controls, which eliminates confounding variables related to differences between subjects
@@ -28,3 +28,4 @@ Linked_to_Framework?: false
     - “if investigators rely on the memory of patients, particularly when the incubation period is long” ( @haegebaert.etal2003, p. 812)
         - “bias towards better remembering foods eaten recently than foods eaten earlier” ( @haegebaert.etal2003, p. 812)
 
+# 📚 References

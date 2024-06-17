@@ -8,7 +8,7 @@ Category:
   - analytical epidemiological studies
 aliases:
   - case-case study
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 ---
 compare risk exposures between cases of the outbreak and cases caused by another strain or type of the same pathogen ([[Comparative Case Data]])  
 
@@ -20,3 +20,4 @@ compare risk exposures between cases of the outbreak and cases caused by another
 
 # Advantages & Limitations 
 - [c] Relies heavily on the availability and quality of surveillance data, limiting applicability in regions with less robust health monitoring systems.
+# 📚 References

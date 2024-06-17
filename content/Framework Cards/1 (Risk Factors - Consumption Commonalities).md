@@ -5,7 +5,7 @@ tags:
 Type:
   - Relation
 Category: []
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 ---
 
 This is the standard way. The goal is to find some evidence for a common exposure, e.g. consumption of a certain food item in a defined time period before disease onset or a locations that was visited by all cases (restaurant, hospital, ... ) 
@@ -19,3 +19,4 @@ This is the standard way. The goal is to find some evidence for a common exposur
 > 6. The likely quality of the product tracing information available at the suspect exposure location
 > [@smith.etal2015, p. 17]
 
+# 📚 References

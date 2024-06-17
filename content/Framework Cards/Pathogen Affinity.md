@@ -6,7 +6,7 @@ Type:
   - Entity
   - pre-collectable data
 Category: []
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 ---
 @demirci.etal2020
 
@@ -32,3 +32,6 @@ Factors which are controlled through external conditions
 
 this gets more important when we're in countries where there is not so much data 
 ❓<span style="background:rgba(240, 107, 5, 0.2)"> isn't this the same as source attribution based on microbial subtyping</span>
+
+
+# 📚 References

@@ -7,7 +7,7 @@ Type:
   - given data
 Category:
   - laboratory data
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 ---
 samples collected from patients
 
@@ -18,3 +18,4 @@ samples collected from patients
 > "many of the pathogens and toxins that cause foodborne disease remain in the intestinal tract for only a short time after the onset of illness." 
 
 
+# 📚 References

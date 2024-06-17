@@ -5,7 +5,7 @@ tags:
 Type:
   - Relation
 Category: []
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 ---
 Usually, pathogens are identified by [[4 (Laboratory Testing)|laboratory testing]], which is time intensive. Therefore, you can also find out whether the outbreak was caused by an intoxication, an enteric infection or a generalized illness by looking at the symptoms @worldhealthorganizationwho2008. For this the percentage of cases with a particular symptom or sign is calculated an arranged in  table in decreasing order. You use the [[Clinical Features of Pathogen]] of the pathogens for this 
 
@@ -24,3 +24,4 @@ There is in general methods to rapidly detect foodborne bacterial pathogens, but
 - [Law et al., 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4290631/)
 - [Kumar et al., 2023](https://link.springer.com/content/pdf/10.1007/s11831-023-09991-0.pdf)
 
+# 📚 References

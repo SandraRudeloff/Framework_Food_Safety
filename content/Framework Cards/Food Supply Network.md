@@ -8,9 +8,9 @@ Type:
 Category:
   - traceback data
   - logistic data
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 ---
-Food Distribution Networks are structured as nodes and links representing the flow of food from production to end-consumer consumption. These networks are essential for [[8 (Source Estimation)|tracing]] contaminations back to their sources. Before it is actually used, the ability of a network structure to support accurate source identification (traceability) should be measured @lu.etal2019
+Food Distribution Networks are structured as nodes and links representing the flow of food from production to end-consumer consumption. These networks are essential for [[8 (Source Estimation)|tracing]] contaminations back to their sources. Before it is actually used, the ability of a network structure to support accurate source identification (traceability) should be measured [@lu.etal2019]
 
 Because exact, fine-grained data on subnational supply networks of food commodities are often not available, trade structures may also be modeled based on production locations, population centers, and storage and transport infrastructure. 
 
@@ -42,3 +42,6 @@ There is multiple publications that use (part of) the food distribution network.
   https://www.linkedin.com/pulse/digital-transformation-how-carrefour-enhance-food-ibm-mohamed-hassan/
 
 Potential Data Source: https://www.importgenius.com/ (tracks shipping activity around the world to show you exactly what’s happening in the import-export business)
+
+
+# 📚 References

@@ -7,5 +7,5 @@ Type:
   - derived data
 Category:
   - laboratory data
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 ---

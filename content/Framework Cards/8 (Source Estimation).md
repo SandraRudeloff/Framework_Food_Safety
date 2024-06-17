@@ -5,7 +5,7 @@ tags:
 Type:
   - Relation
 Category: []
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 ---
 In order to trace (i.e. estimate the source) an outbreak on a [[Food Supply Network]] there are different algorithms. 
 
@@ -26,7 +26,4 @@ In order to trace (i.e. estimate the source) an outbreak on a [[Food Supply Netw
 
 For an overview of different source inference algorithms, see @farber.etal2023; @horn.friedrich2019a
 
-
-
-
-
+# 📚 References
