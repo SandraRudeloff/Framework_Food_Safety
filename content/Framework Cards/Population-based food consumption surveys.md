@@ -1,11 +1,11 @@
 ---
-title: Population-based food consumption surveys
+title: Population-based Food Consumption Surveys
 draft: false
 tags: 
 Type:
   - Entity
   - pre-collectable data
-Category: []
+Category: 
 Linked_to_Framework?: false
 ---
 Can be used in [[1b Consumption commonalities - Food Item|Analytical Epidemiological Studies]] or as an alternate datas source or to derive [[Person Characteristics-Food Preferences]]
