@@ -7,7 +7,7 @@ Type:
 Category:
   - analytical epidemiological studies
 aliases: 
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 ---
 # Analytical Epidemiological Studies
 Analytical epidemiological studies aim to explore associations between exposures and outcomes within populations. They can differ in 

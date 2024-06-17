@@ -5,7 +5,7 @@ tags:
 Type:
   - Relation
 Category: []
-Linked_to_Framework?: false
+Linked_to_Framework?: true
 ---
 Historic data on reported foodborne outbreaks
 - including demographic details (e.g., age and gender of affected individuals) and 
